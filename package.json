@@ -1,12 +1,20 @@
 {
   "name": "lisp-interpreter",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/index.js",
   "repository": "https://github.com/ivteplo/lisp-interpreter.git",
   "author": "Ivan Teplov <iteplov7@gmail.com>",
   "license": "Apache-2.0",
   "private": false,
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
   "dependencies": {
     "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.6"
   }
 }
