@@ -21,11 +21,11 @@ export default class Scope {
 
 Scope.global = new Scope()
 Scope.global.identifiers = {
-  add: (a, b) => a + b,
-  sub: (a, b) => a - b,
-  mul: (a, b) => a * b,
-  div: (a, b) => a / b,
-  mod: (a, b) => a % b,
+  add: (...args) => args.reduce((prev, next) => prev + next),
+  sub: (...args) => args.reduce((prev, next) => prev - next),
+  mul: (...args) => args.reduce((prev, next) => prev * next),
+  div: (...args) => args.reduce((prev, next) => prev / next),
+  mod: (...args) => args.reduce((prev, next) => prev % next),
   list: (...args) => args,
   length: (item) => item.length,
   print: console.log,
