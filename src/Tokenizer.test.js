@@ -1,3 +1,5 @@
+// Copyright (c) 2021 Ivan Zadvornov
+
 import { describe, it, expect } from "@jest/globals"
 import Tokenizer from "./Tokenizer.js"
 
