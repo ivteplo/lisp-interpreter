@@ -29,5 +29,21 @@ Scope.global.identifiers = {
   list: (...args) => args,
   length: (item) => item.length,
   print: console.log,
-  exit: process.exit
+  exit: process.exit,
+
+  sin: Math.sin,
+  cos: Math.cos,
+  tan: Math.tan,
+  tg: Math.tan,
+  random: Math.random,
+  sqrt: Math.sqrt,
+  pow: Math.pow,
+  power: Math.pow,
+  round: Math.round,
+  ceil: Math.ceil,
+  floor: Math.floor,
+  pi: Math.PI,
+  abs: Math.abs,
+  max: Math.max,
+  min: Math.min
 }
