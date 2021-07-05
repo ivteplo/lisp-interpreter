@@ -1,6 +1,7 @@
 // Copyright (c) 2021 Ivan Zadvornov
 
 import Tokenizer from "./Tokenizer.js"
+import unescape from "unescape-js"
 
 export default class Parser {
   constructor() {
@@ -90,7 +91,7 @@ export default class Parser {
     const number = this.consume("number")
     return {
       type: "Number",
-      value: number.value
+      value: +number.value
     }
   }
 
@@ -98,7 +99,7 @@ export default class Parser {
     const string = this.consume("string")
     return {
       type: "String",
-      value: string.value
+      value: unescape(string.value.slice(1, -1))
     }
   }
 

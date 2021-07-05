@@ -11,7 +11,8 @@
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.0.0",
+    "unescape-js": "^1.1.4"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

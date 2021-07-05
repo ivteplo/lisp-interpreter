@@ -28,7 +28,7 @@ describe("Parser", () => {
             arguments: [
               {
                 type: "Number",
-                value: "10"
+                value: 10
               }
             ]
           }
@@ -46,7 +46,7 @@ describe("Parser", () => {
             arguments: [
               {
                 type: "String",
-                value: "'hello world!'"
+                value: "hello world!"
               }
             ]
           }
@@ -71,11 +71,11 @@ describe("Parser", () => {
                 arguments: [
                   {
                     type: "String",
-                    value: "'hello'"
+                    value: "hello"
                   },
                   {
                     type: "String",
-                    value: "'world'"
+                    value: "world"
                   }
                 ]
               }
