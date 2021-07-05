@@ -1,0 +1,12 @@
+{
+  "name": "lisp-interpreter",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/ivteplo/lisp-interpreter.git",
+  "author": "Ivan Teplov <iteplov7@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
