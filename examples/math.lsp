@@ -1,0 +1,10 @@
+(print
+  (add 5 10)
+  (sub 5 10)
+  (mul 5 10)
+  (div 5 10)
+  (mod 5 10)
+  (sqrt 100)
+  (max 10 20 30)
+  (min 10 20 30)
+  pi)
